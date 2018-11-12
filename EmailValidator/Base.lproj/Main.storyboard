@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uyN-OZ-ndO" customClass="EmailTextView">
+                                <rect key="frame" x="16" y="76" width="343" height="67"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="rDa-Bx-Qby" customClass="EmailTextField">
+                                        <rect key="frame" x="0.0" y="8" width="343" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
+                                        <connections>
+                                            <action selector="txtEmailEditingChanged:" destination="uyN-OZ-ndO" eventType="editingChanged" id="cZu-If-6i2"/>
+                                            <action selector="txtEmailEditingDidEnd:" destination="uyN-OZ-ndO" eventType="editingDidEnd" id="USY-vD-HEf"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="aaa@bbb.ccc" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rfy-4V-PUk">
+                                        <rect key="frame" x="7" y="38" width="82" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="rLK-Mq-3a0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Qle-Ky-r67">
+                                        <rect key="frame" x="7" y="39" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="aEy-h4-uHX"/>
+                                            <constraint firstAttribute="width" constant="20" id="ohn-uN-OlK"/>
+                                        </constraints>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="rDa-Bx-Qby" firstAttribute="leading" secondItem="uyN-OZ-ndO" secondAttribute="leading" id="353-pB-Tng"/>
+                                    <constraint firstAttribute="trailing" secondItem="rDa-Bx-Qby" secondAttribute="trailing" id="A2y-f6-yzt"/>
+                                    <constraint firstItem="Rfy-4V-PUk" firstAttribute="top" secondItem="rDa-Bx-Qby" secondAttribute="bottom" id="Ex6-sh-ddT"/>
+                                    <constraint firstItem="Rfy-4V-PUk" firstAttribute="leading" secondItem="uyN-OZ-ndO" secondAttribute="leading" constant="7" id="J61-pV-c1u"/>
+                                    <constraint firstAttribute="bottom" secondItem="rDa-Bx-Qby" secondAttribute="bottom" constant="29" id="Tdt-ox-2Fn"/>
+                                    <constraint firstItem="rDa-Bx-Qby" firstAttribute="top" secondItem="uyN-OZ-ndO" secondAttribute="top" constant="8" id="TyA-FX-Axp"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Rfy-4V-PUk" secondAttribute="trailing" constant="8" id="gD3-0y-YA0"/>
+                                    <constraint firstItem="Qle-Ky-r67" firstAttribute="top" secondItem="rDa-Bx-Qby" secondAttribute="bottom" constant="1" id="rfs-Em-F1Q"/>
+                                    <constraint firstItem="Qle-Ky-r67" firstAttribute="leading" secondItem="uyN-OZ-ndO" secondAttribute="leading" constant="7" id="sTF-9w-f6g"/>
+                                    <constraint firstAttribute="height" constant="67" id="yge-lE-k1T"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="activityView" destination="Qle-Ky-r67" id="oUU-5A-HV1"/>
+                                    <outlet property="lblEmailHelper" destination="Rfy-4V-PUk" id="4k7-DI-1QI"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uyN-OZ-ndO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="C8R-zT-K40"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uyN-OZ-ndO" secondAttribute="trailing" constant="16" id="FRA-WL-Oeh"/>
+                            <constraint firstItem="uyN-OZ-ndO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="bRr-gZ-IOT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDC6E771217401200060ED4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC6E770217401200060ED4D /* AppDelegate.m */; };
+		BDC6E774217401200060ED4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC6E773217401200060ED4D /* ViewController.m */; };
+		BDC6E777217401200060ED4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6E775217401200060ED4D /* Main.storyboard */; };
+		BDC6E779217401210060ED4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC6E778217401210060ED4D /* Assets.xcassets */; };
+		BDC6E77C217401210060ED4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC6E77A217401210060ED4D /* LaunchScreen.storyboard */; };
+		BDC6E77F217401210060ED4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC6E77E217401210060ED4D /* main.m */; };
+		BDC6E7872174043D0060ED4D /* EmailTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC6E7862174043D0060ED4D /* EmailTextView.m */; };
+		BDC6E797217424B30060ED4D /* EmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC6E796217424B30060ED4D /* EmailValidator.m */; };
+		BDC6E79E217447990060ED4D /* EmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC6E79D217447990060ED4D /* EmailTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDC6E76C217401200060ED4D /* EmailValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC6E76F217401200060ED4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDC6E770217401200060ED4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDC6E772217401200060ED4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDC6E773217401200060ED4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDC6E776217401200060ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDC6E778217401210060ED4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDC6E77B217401210060ED4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDC6E77D217401210060ED4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC6E77E217401210060ED4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDC6E7852174043D0060ED4D /* EmailTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailTextView.h; sourceTree = "<group>"; };
+		BDC6E7862174043D0060ED4D /* EmailTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailTextView.m; sourceTree = "<group>"; };
+		BDC6E795217424B30060ED4D /* EmailValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailValidator.h; sourceTree = "<group>"; };
+		BDC6E796217424B30060ED4D /* EmailValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailValidator.m; sourceTree = "<group>"; };
+		BDC6E79C217447990060ED4D /* EmailTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailTextField.h; sourceTree = "<group>"; };
+		BDC6E79D217447990060ED4D /* EmailTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDC6E769217401200060ED4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDC6E763217401200060ED4D = {
+			isa = PBXGroup;
+			children = (
+				BDC6E76E217401200060ED4D /* EmailValidator */,
+				BDC6E76D217401200060ED4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDC6E76D217401200060ED4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDC6E76C217401200060ED4D /* EmailValidator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDC6E76E217401200060ED4D /* EmailValidator */ = {
+			isa = PBXGroup;
+			children = (
+				BDC6E76F217401200060ED4D /* AppDelegate.h */,
+				BDC6E770217401200060ED4D /* AppDelegate.m */,
+				BDC6E772217401200060ED4D /* ViewController.h */,
+				BDC6E773217401200060ED4D /* ViewController.m */,
+				BDC6E775217401200060ED4D /* Main.storyboard */,
+				BDC6E778217401210060ED4D /* Assets.xcassets */,
+				BDC6E77A217401210060ED4D /* LaunchScreen.storyboard */,
+				BDC6E77D217401210060ED4D /* Info.plist */,
+				BDC6E77E217401210060ED4D /* main.m */,
+				BDC6E7852174043D0060ED4D /* EmailTextView.h */,
+				BDC6E7862174043D0060ED4D /* EmailTextView.m */,
+				BDC6E795217424B30060ED4D /* EmailValidator.h */,
+				BDC6E796217424B30060ED4D /* EmailValidator.m */,
+				BDC6E79C217447990060ED4D /* EmailTextField.h */,
+				BDC6E79D217447990060ED4D /* EmailTextField.m */,
+			);
+			path = EmailValidator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDC6E76B217401200060ED4D /* EmailValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC6E782217401210060ED4D /* Build configuration list for PBXNativeTarget "EmailValidator" */;
+			buildPhases = (
+				BDC6E768217401200060ED4D /* Sources */,
+				BDC6E769217401200060ED4D /* Frameworks */,
+				BDC6E76A217401200060ED4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailValidator;
+			productName = EmailValidator;
+			productReference = BDC6E76C217401200060ED4D /* EmailValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDC6E764217401200060ED4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Tula Weerasooriya";
+				TargetAttributes = {
+					BDC6E76B217401200060ED4D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = BDC6E767217401200060ED4D /* Build configuration list for PBXProject "EmailValidator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDC6E763217401200060ED4D;
+			productRefGroup = BDC6E76D217401200060ED4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDC6E76B217401200060ED4D /* EmailValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDC6E76A217401200060ED4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC6E77C217401210060ED4D /* LaunchScreen.storyboard in Resources */,
+				BDC6E779217401210060ED4D /* Assets.xcassets in Resources */,
+				BDC6E777217401200060ED4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDC6E768217401200060ED4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC6E797217424B30060ED4D /* EmailValidator.m in Sources */,
+				BDC6E774217401200060ED4D /* ViewController.m in Sources */,
+				BDC6E77F217401210060ED4D /* main.m in Sources */,
+				BDC6E7872174043D0060ED4D /* EmailTextView.m in Sources */,
+				BDC6E79E217447990060ED4D /* EmailTextField.m in Sources */,
+				BDC6E771217401200060ED4D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDC6E775217401200060ED4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC6E776217401200060ED4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDC6E77A217401210060ED4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC6E77B217401210060ED4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDC6E780217401210060ED4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDC6E781217401210060ED4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDC6E783217401210060ED4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmailValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tula.EmailValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDC6E784217401210060ED4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmailValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tula.EmailValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDC6E767217401200060ED4D /* Build configuration list for PBXProject "EmailValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC6E780217401210060ED4D /* Debug */,
+				BDC6E781217401210060ED4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC6E782217401210060ED4D /* Build configuration list for PBXNativeTarget "EmailValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC6E783217401210060ED4D /* Debug */,
+				BDC6E784217401210060ED4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDC6E764217401200060ED4D /* Project object */;
+}
